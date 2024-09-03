@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(to left bottom, rgb(127, 238, 127),rgb(125, 125, 234));
+    margin: 0%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(66, 4, 4);
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    box-shadow: 4px 4px 10px rgb(54, 2, 2, 0.5);
+    border-radius: 10px;
+    width: 80%;
+    max-width: 450px;
+    min-width: 350px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 32px;
+  }
+  
+  .temp-container {
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .input {
+    width: 220px;
+    font-family: monospace;
+    padding: 5px;
+    float: right;
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.5);
+    color: darkgreen;
+    font-size: 18px;
+  }
+  
+  
+  .input::placeholder{
+      color: darkgray;
+  }
